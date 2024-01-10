@@ -1,0 +1,34 @@
+body{
+  font-family: Arial;
+}
+
+.sub{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 35px;
+}
+.is-ed{
+  background-color:rgb(240,240,240) ;
+  color: black;
+}
+.input{
+  padding: 10px;
+  width: 182px;
+}
+.calci{
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.game{
+  margin-top: 55px;
+}
+

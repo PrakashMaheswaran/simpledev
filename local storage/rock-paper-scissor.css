@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+}
+button{
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  font-size: 40px;
+  border: 3px solid rgb(244, 242, 242);
+  margin-right: 10px;
+  background-color: rgb(25, 25, 25);
+  cursor: pointer;
+}
+p{
+  font-size: 30px;
+  font-weight: bold;
+}
+#result{
+  font-size: 25px;
+  margin-top: 50px;
+}
+.reset{
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 1px;
+  font-size: 15px;
+  padding: 5px 13px;
+}
