@@ -17,30 +17,30 @@
     <p class="game">Rock Paper Scissors</p>
     <a href="./rock-paper-scissor.html">Click here</a>
 
-    <script src="./nbase2.js">
+    <script >
 
-      // function enter(event){
-      //   if(event.key==='Enter')calci();
-      // }
-      // function sub(){
-      //   const subElement=document.querySelector('.sub');
-      //   if(subElement.innerHTML=(subElement.innerHTML==='Subscribe')){
-      //     subElement.innerHTML='Subscribed';
-      //     subElement.classList.add('is-ed');
-      //   }else{
-      //     subElement.innerHTML='Subscribe';
-      //     subElement.classList.remove('is-ed');
-      //   }
+      function enter(event){
+        if(event.key==='Enter')calci();
+      }
+      function sub(){
+        const subElement=document.querySelector('.sub');
+        if(subElement.innerHTML=(subElement.innerHTML==='Subscribe')){
+          subElement.innerHTML='Subscribed';
+          subElement.classList.add('is-ed');
+        }else{
+          subElement.innerHTML='Subscribe';
+          subElement.classList.remove('is-ed');
+        }
         
 
-      // }
+      }
 
-      // function calci(){
-      //   const input=Number(document.querySelector('.input').value);
-      //   let out= input;
-      //   out= (input<40) ? (input+10) : (input);
-      //   document.querySelector('.output').innerHTML=`$${out}`;
-      // }
+      function calci(){
+        const input=Number(document.querySelector('.input').value);
+        let out= input;
+        out= (input<40) ? (input+10) : (input);
+        document.querySelector('.output').innerHTML=`$${out}`;
+      }
     </script>
   </body>
 </html>
